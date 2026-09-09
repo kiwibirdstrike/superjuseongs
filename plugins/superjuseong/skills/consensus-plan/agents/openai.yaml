@@ -1,0 +1,3 @@
+interface:
+  display_name: "Consensus Plan"
+  short_description: "Create bounded plans with architecture and verification review"
