@@ -1,0 +1,21 @@
+{
+  "hooks": {
+    "SessionStart": [{
+      "matcher": "startup|resume|clear|compact",
+      "hooks": [{
+        "type": "command",
+        "command": "python3 \"${PLUGIN_ROOT}/hooks/clean_minimal_code.py\"",
+        "timeout": 5,
+        "statusMessage": "Loading Clean Minimal Code C2"
+      }]
+    }],
+    "SubagentStart": [{
+      "hooks": [{
+        "type": "command",
+        "command": "python3 \"${PLUGIN_ROOT}/hooks/clean_minimal_code.py\"",
+        "timeout": 5,
+        "statusMessage": "Loading Clean Minimal Code C2"
+      }]
+    }]
+  }
+}

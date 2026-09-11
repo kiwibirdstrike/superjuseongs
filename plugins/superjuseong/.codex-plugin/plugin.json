@@ -1,6 +1,6 @@
 {
   "name": "superjuseong",
-  "version": "0.1.0+codex.20260909063643",
+  "version": "0.1.0+codex.20260911102158",
   "description": "A lean personal agent operating system for Codex.",
   "author": {
     "name": "Lee Juseong"
@@ -8,9 +8,16 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Superjuseong",
-    "shortDescription": "Lean planning, delegation, and verification.",
+    "shortDescription": "Lean workflows and agent-readable minimal code.",
     "longDescription": "A personal Codex workflow focused on autonomy, concise specifications, bounded planning, selective native subagents, and evidence-based completion.",
     "developerName": "Lee Juseong",
-    "category": "Developer Tools"
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use clean-minimal-code middle for this coding task."
+    ]
   }
 }
