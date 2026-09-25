@@ -1,0 +1,3 @@
+interface:
+  display_name: "Upstream Revision"
+  short_description: "Rewrite from the invalidated claim forward instead of appending a correction"

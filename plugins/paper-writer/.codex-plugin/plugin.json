@@ -1,0 +1,24 @@
+{
+  "name": "paper-writer",
+  "version": "0.1.0",
+  "description": "A paper-writing orchestrator that manages a manuscript as a dependency structure.",
+  "author": {
+    "name": "Lee Juseong"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Paper Writer",
+    "shortDescription": "Revise upstream, not downstream; humanize only once the argument is stable.",
+    "longDescription": "An orchestrator for academic and technical papers. It tracks argument, evidence, scope, and causal claims as an explicit dependency graph, routes every piece of feedback through a diagnosis step before editing, rewrites from the earliest invalidated claim rather than appending corrections, and applies stylistic humanization only after the reasoning has stabilized.",
+    "developerName": "Lee Juseong",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Draft the Results section from these findings using paper-planning first.",
+      "This feedback changes a premise. Run revision-diagnosis before editing anything."
+    ]
+  }
+}

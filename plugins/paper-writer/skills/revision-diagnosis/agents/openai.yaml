@@ -1,0 +1,3 @@
+interface:
+  display_name: "Revision Diagnosis"
+  short_description: "Locate the earliest affected claim and classify how deep a revision must go"

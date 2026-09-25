@@ -1,0 +1,3 @@
+interface:
+  display_name: "Paper Planning"
+  short_description: "Build the argument skeleton and dependency graph before any prose"

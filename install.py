@@ -84,6 +84,7 @@ def main() -> None:
     if not re.search(r"(?m)^superjuseongs(?:\s|$)", marketplaces):
         run("codex", "plugin", "marketplace", "add", str(ROOT))
     run("codex", "plugin", "add", "superjuseong@superjuseongs")
+    run("codex", "plugin", "add", "paper-writer@superjuseongs")
 
     print("Installed Superjuseong's. Start a new Codex thread to load it.")
     if backup.exists():

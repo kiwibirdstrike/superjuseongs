@@ -1,0 +1,9 @@
+{
+  "name": "paper-writer",
+  "version": "0.1.0",
+  "description": "A paper-writing orchestrator that manages argument, evidence, scope, and causal claims as a dependency structure, revises upstream instead of appending corrections, and humanizes only after the reasoning is stable.",
+  "author": {
+    "name": "Lee Juseong"
+  },
+  "keywords": ["writing", "academic", "research", "revision", "manuscript"]
+}
