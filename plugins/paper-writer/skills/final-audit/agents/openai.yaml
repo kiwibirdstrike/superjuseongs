@@ -1,0 +1,3 @@
+interface:
+  display_name: "Final Audit"
+  short_description: "Pre-submission gate for logic, structure, and revision integrity"

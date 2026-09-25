@@ -1,0 +1,3 @@
+interface:
+  display_name: "Evidence Audit"
+  short_description: "Grade every claim against its evidence and catch overreach"

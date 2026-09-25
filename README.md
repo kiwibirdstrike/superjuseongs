@@ -2,6 +2,11 @@
 
 A lean personal Agent OS for Codex: nine reusable skills, eight Luna High specialist profiles, a thin global operating contract, and a stateless Clean Minimal Code C2 hook.
 
+This repository is also a plugin marketplace. It currently hosts two plugins:
+
+- **`superjuseong`** — the Codex agent OS described below.
+- **`paper-writer`** — a paper-writing orchestrator that manages a manuscript as a dependency structure. Works in both Codex and Claude Code. See [`plugins/paper-writer/`](plugins/paper-writer/).
+
 ## Install
 
 Requirements: macOS or Linux, Python 3.11+, and the `codex` CLI.
@@ -16,16 +21,29 @@ The installer:
 - backs up an existing global `AGENTS.md` and overlapping agent profiles;
 - installs the global operating contract and eight agent TOMLs;
 - enables native subagents, limits nesting to one level, and disables persistent goals;
-- registers this repository as a local plugin marketplace and installs `superjuseong@superjuseongs`.
+- registers this repository as a local plugin marketplace and installs `superjuseong@superjuseongs` and `paper-writer@superjuseongs`.
 
 Start a new Codex thread after installation.
+
+### Claude Code
+
+`paper-writer` also installs in Claude Code, which reads `.claude-plugin/marketplace.json`:
+
+```bash
+claude plugin marketplace add kiwibirdstrike/superjuseongs
+claude plugin install paper-writer@superjuseongs
+```
+
+`superjuseong` is Codex-only and is not listed in the Claude Code marketplace.
 
 ## Contents
 
 - `plugins/superjuseong/`: installable skills and coding-overlay hooks
+- `plugins/paper-writer/`: paper-writing orchestrator, with Codex and Claude Code manifests over a shared set of skills
 - `config/AGENTS.md`: global operating contract
 - `config/agents/`: Luna High specialist profiles
-- `.agents/plugins/marketplace.json`: local marketplace definition
+- `.agents/plugins/marketplace.json`: Codex marketplace definition
+- `.claude-plugin/marketplace.json`: Claude Code marketplace definition
 
 ## Update
 

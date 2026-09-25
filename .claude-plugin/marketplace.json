@@ -1,0 +1,14 @@
+{
+  "name": "superjuseongs",
+  "description": "Personal plugins by Lee Juseong.",
+  "owner": {
+    "name": "Lee Juseong"
+  },
+  "plugins": [
+    {
+      "name": "paper-writer",
+      "source": "./plugins/paper-writer",
+      "description": "A paper-writing orchestrator: manages argument and evidence as a dependency structure, revises upstream instead of appending corrections, and humanizes only after the reasoning is stable."
+    }
+  ]
+}
