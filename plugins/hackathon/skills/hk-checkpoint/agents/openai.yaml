@@ -1,0 +1,3 @@
+interface:
+  display_name: "HK Checkpoint"
+  short_description: "Compare progress with time checkpoints and cut scope"

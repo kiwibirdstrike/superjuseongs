@@ -1,0 +1,24 @@
+{
+  "name": "hackathon",
+  "version": "0.1.0",
+  "description": "Explicit, time-boxed workflow skills for a proctored Codex hackathon: kickoff, decisions, checkpoints, delegation, submission.",
+  "author": {
+    "name": "Lee Juseong"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Hackathon",
+    "shortDescription": "Spec in 20 minutes, decisions in writing, submit with a briefing.",
+    "longDescription": "Five explicitly invoked skills for a 180-minute proctored task: hk-kickoff (spec, stakeholder questions, timed plan), hk-decision (decision log for AI-free follow-up questions), hk-checkpoint (time-based scope control), hk-delegate (self-contained subagent dispatch), and hk-submit (audit, fresh verification, submission document, briefing). Builds on spec-first.",
+    "developerName": "Lee Juseong",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "$hk-kickoff",
+      "$hk-checkpoint 90"
+    ]
+  }
+}

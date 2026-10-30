@@ -1,0 +1,3 @@
+interface:
+  display_name: "Spec Definition"
+  short_description: "Write the stage ledger before code"

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Upstream Fix"
+  short_description: "Fix at the origin stage and propagate"

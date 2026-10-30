@@ -9,6 +9,11 @@
       "name": "paper-writer",
       "source": "./plugins/paper-writer",
       "description": "A paper-writing orchestrator: manages argument and evidence as a dependency structure, revises upstream instead of appending corrections, and humanizes only after the reasoning is stable."
+    },
+    {
+      "name": "spec-first",
+      "source": "./plugins/spec-first",
+      "description": "Spec-governed development: stage ledger first, fix defects at the stage that produced them, never compensate downstream."
     }
   ]
 }

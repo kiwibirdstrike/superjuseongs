@@ -1,0 +1,24 @@
+{
+  "name": "spec-first",
+  "version": "0.1.0",
+  "description": "Spec-governed development: write the stage ledger first, fix defects at the stage that produced them, and never compensate downstream.",
+  "author": {
+    "name": "Lee Juseong"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Spec First",
+    "shortDescription": "Fix where the first bad state is produced, not where it surfaces.",
+    "longDescription": "Keeps a specification and its code in agreement. New work starts from a stage ledger of inputs, outputs, invariants, and order. Every bug or changed requirement is diagnosed to the first stage that produced a bad state, fixed there with the spec updated first, and audited for compensating patches and stage-order drift.",
+    "developerName": "Lee Juseong",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Start this pipeline with spec-definition before writing code.",
+      "This output is wrong. Run change-diagnosis before editing anything."
+    ]
+  }
+}

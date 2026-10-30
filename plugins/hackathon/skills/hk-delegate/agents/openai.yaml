@@ -1,0 +1,3 @@
+interface:
+  display_name: "HK Delegate"
+  short_description: "Write a self-contained subagent dispatch with a role"

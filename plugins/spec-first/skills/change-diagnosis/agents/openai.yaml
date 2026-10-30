@@ -1,0 +1,3 @@
+interface:
+  display_name: "Change Diagnosis"
+  short_description: "Find the first bad stage before editing"

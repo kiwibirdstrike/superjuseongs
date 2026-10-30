@@ -2,10 +2,16 @@
 
 A lean personal Agent OS for Codex: nine reusable skills, eight Luna High specialist profiles, a thin global operating contract, and a stateless Clean Minimal Code C2 hook.
 
-This repository is also a plugin marketplace. It currently hosts two plugins:
+This repository is also a plugin marketplace. It currently hosts four plugins:
 
 - **`superjuseong`** — the Codex agent OS described below.
 - **`paper-writer`** — a paper-writing orchestrator that manages a manuscript as a dependency structure. Works in both Codex and Claude Code. See [`plugins/paper-writer/`](plugins/paper-writer/).
+- **`spec-first`** — spec-governed development: stage ledger first, diagnose defects to the stage that produced them, fix upstream, and audit for compensating patches. Works in both Codex and Claude Code. See [`plugins/spec-first/`](plugins/spec-first/).
+- **`hackathon`** — explicit time-boxed skills for a proctored Codex hackathon (`hk-kickoff`, `hk-decision`, `hk-checkpoint`, `hk-delegate`, `hk-submit`). Codex-only. See [`hackathon/`](hackathon/).
+
+## Hackathon
+
+For the proctored Codex hackathon environment, use [`hackathon/`](hackathon/) instead of `install.py`. It installs `superjuseong`, `spec-first`, and the `hackathon` skills plugin, and never edits Codex configuration or agent profiles.
 
 ## Install
 
@@ -21,7 +27,7 @@ The installer:
 - backs up an existing global `AGENTS.md` and overlapping agent profiles;
 - installs the global operating contract and eight agent TOMLs;
 - enables native subagents, limits nesting to one level, and disables persistent goals;
-- registers this repository as a local plugin marketplace and installs `superjuseong@superjuseongs` and `paper-writer@superjuseongs`.
+- registers this repository as a local plugin marketplace and installs `superjuseong@superjuseongs`, `paper-writer@superjuseongs`, and `spec-first@superjuseongs`.
 
 Start a new Codex thread after installation.
 

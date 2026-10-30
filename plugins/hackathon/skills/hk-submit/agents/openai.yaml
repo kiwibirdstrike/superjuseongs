@@ -1,0 +1,3 @@
+interface:
+  display_name: "HK Submit"
+  short_description: "Audit, verify, write submission docs, brief the user"

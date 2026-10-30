@@ -1,0 +1,9 @@
+{
+  "name": "spec-first",
+  "version": "0.1.0",
+  "description": "Spec-governed development: write the stage ledger first, diagnose defects to the stage that produced them, fix upstream with the spec updated first, and audit for compensating patches.",
+  "author": {
+    "name": "Lee Juseong"
+  },
+  "keywords": ["specification", "pipeline", "debugging", "root-cause", "refactoring"]
+}

@@ -1,0 +1,3 @@
+interface:
+  display_name: "HK Decision"
+  short_description: "Record a decision in DECISIONS.md and the spec ledger"
